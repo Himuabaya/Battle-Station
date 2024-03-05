@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_leaves_availed__c</fullName>
+    <externalId>false</externalId>
+    <label>Total leaves availed</label>
+    <summarizedField>leave_application__c.Number_of_days__c</summarizedField>
+    <summaryFilterItems>
+        <field>leave_application__c.Leave_Status__c</field>
+        <operation>equals</operation>
+        <value>Approved</value>
+    </summaryFilterItems>
+    <summaryForeignKey>leave_application__c.Employee__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
