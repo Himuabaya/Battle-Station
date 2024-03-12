@@ -4,7 +4,7 @@
         <headerColor>#E8EB19</headerColor>
         <logo>images</logo>
         <logoVersion>1</logoVersion>
-        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
     </brand>
     <description>the places to which soldiers, sailors, warships, etc. are assigned for a battle or an emergency.</description>
     <formFactors>Small</formFactors>
